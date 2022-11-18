@@ -19,8 +19,8 @@ function beepBoop(number) {
 function handleFormSubmission(event) {
   event.preventDefault();
   const userInput=document.getElementById("num-con").value;
-  const number=document.getElementById("number").value;
-  let outputArray=document.getElementById("output-string").innerText;
+  document.getElementById("num-con").value="";
+  document.getElementById("output-string").innerText=beepBoop(userInput);
   }
   window.addEventListener("load", function() {
       document.querySelector("form#word-converter").addEventListener("submit", handleFormSubmission);
