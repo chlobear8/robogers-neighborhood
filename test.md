@@ -23,3 +23,7 @@ Expected Output: [0, "Beep!", "Boop!",3,4,5,6,7,8,9,"Beep!", "Boop!"]
 Test: "It should return 'Won't you be my neighbor?' instead of 3."
 Code: beepBoop(3);
 Expected Output: [0, "Beep!", "Boop!", "Won't you be my neighbor?"]
+
+Test: "It should return the highest numbers output."
+Code: beepBoop(23);
+Expected Output: [0, "Beep!", "Boop!", "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, "Beep!", "Beep!", "Boop!", "Won't you be my neighbor?", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Boop!", "Boop!", "Boop!", "Won't you be my neighbor?"]
