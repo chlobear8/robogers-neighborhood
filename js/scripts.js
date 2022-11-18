@@ -9,6 +9,9 @@ function beepBoop(number) {
     if (digits.includes(2)) {
       outputArray[i]="Boop!";
     }
+    if (digits.includes(3)) {
+      outputArray[i]="Won't you be my neighbor?";
+    }
   }
 	return outputArray;
 
