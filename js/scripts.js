@@ -1,9 +1,9 @@
 function beepBoop(number) {
-	let inputArray = Array.from(String(number), Number);
-	for (let i = 0; i <= inputArray.length; i++) {
-	while (0 -> number) {
-		inputArray-=number;
-	return inputArray;
-    }
+	let outputArray = []; 
+	for (let i = 0; i <= number; i++) {
+    outputArray[i]=i;
   }
-}
+	return outputArray;
+
+  }
+
