@@ -15,3 +15,11 @@ Expected Output: [0,"Beep!", 2,3,4,5,6,7,8,9,"Beep!","Beep!"]
 Test: "It should return 'Boop!' instead of 2."
 Code: beepBoop(2);
 Expected Output: [0, "Beep!", "Boop!"]
+
+Test: "It should return the higher number when double digits."
+Code: beepBoop(12);
+Expected Output: [0, "Beep!", "Boop!",3,4,5,6,7,8,9,"Beep!", "Boop!"]
+
+Test: "It should return 'Won't you be my neighbor?' instead of 3."
+Code: beepBoop(3);
+Expected Output: [0, "Beep!", "Boop!", "Won't you be my neighbor?"]

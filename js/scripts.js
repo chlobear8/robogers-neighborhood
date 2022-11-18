@@ -4,7 +4,10 @@ function beepBoop(number) {
     let digits=Array.from(String(i), Number) 
     outputArray[i]=i;
     if (digits.includes(1)) {
-      outputArray[i]="Beep!"
+      outputArray[i]="Beep!";
+    }
+    if (digits.includes(2)) {
+      outputArray[i]="Boop!";
     }
   }
 	return outputArray;
