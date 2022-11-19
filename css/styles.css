@@ -60,4 +60,6 @@ body {
 
 .btn:hover {
   cursor: pointer;
+  background-color: rgb(193, 67, 67);
 }
+
