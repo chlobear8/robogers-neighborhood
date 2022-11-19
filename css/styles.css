@@ -11,15 +11,23 @@ img {
 
   .container {
     position: absolute;
-    top: 25%;
-    right: 10%;
+    top: 45%;
+    right: 18%;
+    height: 300px;
+    width: 400px;
+    font-size: 20px;
+    color:black;
+    text-align: center;
+    background-color: darkred;
+    opacity: .9;
   }
 
 h2 {
   position: absolute;
   top: 20%;
-  left: 50%;
+  left: 53%;
   transform: translate(-50%, -50%);
+  font-size: 30px;
 }
 
 body {
