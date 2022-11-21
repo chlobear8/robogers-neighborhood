@@ -9,8 +9,8 @@
   overflow: scroll
   }
 
-background {
-  background-image: image/city.jpg;
+body {
+  background-image: url("../images/city.jpg");
   background-repeat:repeat;
   top: 0;
   left: 0;
